@@ -23,7 +23,7 @@ app.listen(port, () => {
 });
 
 
-const connectionURL = "mongodb+srv://syamablyat:syamablyat123@hackbu2023.vms6wku.mongodb.net/?retryWrites=true&w=majority";
+const connectionURL = "";
 
 mongoose.connect(connectionURL, {
   useNewUrlParser: true,
