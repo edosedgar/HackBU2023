@@ -2,7 +2,7 @@
 
 ## Overview
 
-r[Overview](info1.jpg)
+![Overview](info1.jpg)
 
 Introducing a cutting-edge project that utilizes the power of steganography to crack down on copyright violators. Our solution uses advanced image techniques to embed unique digital signatures within protected content. These signatures are undetectable to the human eye and ear, but can be used to track the distribution of the content on unauthorized platforms.
 
