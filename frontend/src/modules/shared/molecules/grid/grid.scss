@@ -1,0 +1,10 @@
+.the-grid {
+  width: fit-content;
+  min-width: 0;
+
+  .ant-image-img {
+    width: var(--image-size);
+    height: var(--image-size);
+    object-fit: cover;
+  }
+}

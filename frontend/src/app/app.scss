@@ -1,0 +1,78 @@
+.app-wrapper {
+  min-height: 100vh;
+  background: var(--color-primary);
+}
+
+.editor-page-wrapper {
+  div.SnackbarContainer-root.SnackbarContainer-left {
+    left: 64px;
+    bottom: 4px;
+  }
+}
+
+.SnackbarContainer-root {
+  z-index: 10000 !important;
+}
+
+.pretty-scrollbar {
+  & {
+    scrollbar-width: thin;
+    scrollbar-color: #ffffff var(--ant-primary-color);
+  }
+
+  &::-webkit-scrollbar {
+    height: 4px;
+    width: 5px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: var(--ant-primary-color);
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #ffffff;
+    border: none;
+  }
+}
+
+.ant-collapse {
+  &--no-header {
+    .ant-collapse-header {
+      display: none !important;
+    }
+
+    .ant-collapse-content-box {
+      padding: 0 !important;
+    }
+  }
+}
+
+.button-text {
+  padding: 0;
+  height: auto;
+  background: none !important;
+  color: var(--ant-color-primary) !important;
+  font-size: 12px;
+}
+
+.gradient-bg {
+  background: linear-gradient(-135deg,#c850c0,#4158d0);
+}
+
+.ant-image-preview-mask {
+  background-color: black !important;
+}
+
+.ant-image-preview-operations {
+  background: transparent !important;
+
+  .ant-image-preview-operations-operation {
+    &:not(.ant-image-preview-operations-operation-close) {
+      display: none !important;
+    }
+  }
+}
+
+.ant-image-preview-img {
+  border: 15px solid white !important;
+}

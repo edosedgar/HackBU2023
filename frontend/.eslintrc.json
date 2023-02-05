@@ -1,0 +1,84 @@
+{
+  "extends": [
+    "airbnb-typescript",
+    "airbnb/hooks",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier",
+    "plugin:prettier/recommended",
+    "plugin:effector/react"
+  ],
+  "plugins": ["react", "@typescript-eslint", "react-hooks", "import", "effector"],
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2022,
+    "sourceType": "module",
+    "project": "./tsconfig.json"
+  },
+  "settings": {
+    "import/extensions": [".js", ".jsx", ".ts", ".tsx"],
+    "import/parsers": {
+      "@typescript-eslint/parser": [".ts", ".tsx"]
+    },
+    "import/resolver": {
+      "typescript": {}
+    }
+  },
+  "rules": {
+    "@typescript-eslint/no-non-null-assertion": "off",
+    "no-empty": "off",
+    "no-continue": "off",
+    "no-nested-ternary": "off",
+    "import/no-extraneous-dependencies": "off",
+    "no-case-declarations": "off",
+    "linebreak-style": "off",
+    "max-len": ["error", {"code": 140, "ignoreUrls": true, "ignoreComments": true, "ignoreStrings": true}],
+    "react/jsx-props-no-spreading": "off",
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ],
+    "import/prefer-default-export": "off",
+    "react/no-array-index-key": "off",
+    "@typescript-eslint/ban-ts-comment": "off",
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/lines-between-class-members": "off",
+    "react-hooks/exhaustive-deps": "off",
+    "react/prop-types": "off",
+    "react/require-default-props": "off",
+    "react/destructuring-assignment": ["off", "always", { "ignoreClassFields": true, "destructureInSignature": "ignore" }],
+    "@typescript-eslint/no-unused-vars": ["error"],
+    "@typescript-eslint/no-shadow": ["error"],
+    "react-hooks/rules-of-hooks": "error",
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "ts": "never",
+        "tsx": "never"
+      }
+    ],
+    "no-param-reassign": ["error", { "props": false }],
+    "no-console": ["warn", { "allow": ["warn", "error"] }],
+    "func-style": [
+      "error",
+      "expression",
+      { "allowArrowFunctions": true }
+    ]
+  }
+}

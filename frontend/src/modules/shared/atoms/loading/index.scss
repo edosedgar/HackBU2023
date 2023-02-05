@@ -1,0 +1,22 @@
+.shared-loading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(3px);
+
+  &--block {
+    position: static;
+    top: unset;
+    left: unset;
+    width: auto;
+    height: auto;
+    z-index: auto;
+    backdrop-filter: none;
+  }
+}

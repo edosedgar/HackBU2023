@@ -1,0 +1,10 @@
+.the-samples {
+  &__grid {
+    width: 1000px;
+    justify-content: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
