@@ -1,4 +1,5 @@
-# HackBU2023 "Digital rights management (DRM) on steroids"
+# HackBU2023
+# "Digital rights management (DRM) on steroids"
 
 ## Overview
 
