@@ -13,6 +13,8 @@ With its ability to accurately and efficiently detect copyright violations, our 
 
 ![Solution](info2.jpg)
 
+The project was done at [HackBU 2023 hackathon](https://devpost.com/software/drm-on-steroids).
+
 ## Repository structure
 
 ```
