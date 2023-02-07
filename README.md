@@ -20,21 +20,14 @@ With its ability to accurately and efficiently detect copyright violations, our 
 
 
 Project contains two parts: the first part simulates a streaming platform
-where a user can create an account and browse images similar to watching
-shows and movies. The gallery of images will be watermarked with
-an identification information linked to a user. The gallery is deplopyed locally and will
-be available at openexpo.
+where user can create an account and browse images similar to watching
+shows and movies on streaming platforms. Each image in the gallery is watermarked with
+an identification information linked to the user.
 
 The second part contains an app running on [HuggingFace platform](https://huggingface.co/spaces/edosedgar/stegastamp_extract)
-where copied content could be uploaded to trace down the user posted the media.
-The whole project was done in 24 hours.
+where a copied content could be uploaded to trace down the user distributed the media.
 
 ## Acknowledgment
 
 The system is based off the [StegaStamp](https://github.com/tancik/StegaStamp) paper.
-
-## Authors
-
-Edgar Kaziakhmedov - ekaziak1@binghamton.edu <br>
-Samir Aghaev - saghaye1@binghamton.edu
 
