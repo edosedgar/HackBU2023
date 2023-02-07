@@ -13,13 +13,19 @@ With its ability to accurately and efficiently detect copyright violations, our 
 
 ![Solution](info2.jpg)
 
-## Code structure
+## Repository structure
 
- - backend folder contains code related to backend of the UI and StegaStamp util
- - frontend folder contains code related to UI part
+```
+project
+│
+└───backend
+│   code related to backend of the UI and StegaStamp util
+│   
+└───frontend
+    code related to UI part
+```
 
-
-Project contains two parts: the first part simulates a streaming platform
+The project consists of two parts: the first part simulates a streaming platform
 where user can create an account and browse images similar to watching
 shows and movies on streaming platforms. Each image in the gallery is watermarked with
 an identification information linked to the user.
